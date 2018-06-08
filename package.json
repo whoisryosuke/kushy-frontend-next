@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "node server.js",
     "build": "next build",
-    "start": "NODE_ENV=production node server.js"
+    "start": "NODE_ENV=production node server.js",
+    "heroku-postbuild": "next build"
   },
   "author": "Ryosuke",
   "license": "MIT",
@@ -19,8 +20,5 @@
     "react": "^16.4.0",
     "react-dom": "^16.4.0",
     "semantic-ui-react": "^0.81.1"
-  },
-  "devDependencies": {
-    "semantic-ui": "^2.3.1"
   }
 }
